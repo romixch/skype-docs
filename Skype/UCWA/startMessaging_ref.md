@@ -54,14 +54,14 @@ Starts a [messagingInvitation](messagingInvitation_ref.md) that adds the instant
 
 #### Request body
 
-| **Name**    | **Description**                                                                                                                                                                                 | **Required?** |
-| :---------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
-| operationId | The ID that the application supplies to correlate its request with the corresponding operation started in the event channel.The maximum length is 50 characters. String                         | No            |
-| to          | The [contact](contact_ref.md) that this invitation is to be sent to.String                                                                                                                      | Yes           |
-| importance  | The conversation's importance ([Importance](Importance_ref.md)): Normal, Urgent, or Emergency.An application can use this as a hint to inform the user.(Importance)Normal, Urgent, or Emergency | No            |
-| subject     | The conversation's subject.The property has a maximum length of 250 characters.The maximum length is 250 characters. String                                                                     | No            |
-| threadId    | The conversation's thread ID.An application can use this ID to continue an existing conversation.String                                                                                         | No            |
-| message     | The message text to send along with the [messagingInvitation](messagingInvitation_ref.md).ExternalResource                                                                                      | No            |
+| **Name**    | **Description**                                                                                                                                                                                    | **Required?** |
+| :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| operationId | The ID that the application supplies to correlate its request with the corresponding operation started in the event channel. The maximum length is 50 characters. String                           | Yes           |
+| to          | The [contact](contact_ref.md) that this invitation is to be sent to.String                                                                                                                         | Yes           |
+| importance  | The conversation's importance ([Importance](Importance_ref.md)): Normal, Urgent, or Emergency. An application can use this as a hint to inform the user. (Importance) Normal, Urgent, or Emergency | No            |
+| subject     | The conversation's subject.The property has a maximum length of 250 characters.The maximum length is 250 characters. String                                                                        | No            |
+| threadId    | The conversation's thread ID.An application can use this ID to continue an existing conversation. String                                                                                           | No            |
+| message     | The message text to send along with the [messagingInvitation](messagingInvitation_ref.md). ExternalResource                                                                                        | No            |
 
 #### Response body
 
