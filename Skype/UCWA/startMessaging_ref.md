@@ -102,8 +102,7 @@ Content-Length: 257
   "threadId" : "292e0aaef36c426a97757f43dda19d06",
   "_links" : {
     "message" : {
-      "href" : "data : text/plain;base64,
-      somebase64encodedmessage"
+      "href" : "data:text/plain;base64,c29tZWJhc2U2NGVuY29kZWRtZXNzYWdl"
     }
   }
 }
